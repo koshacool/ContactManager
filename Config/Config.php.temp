@@ -1,0 +1,32 @@
+<?php
+/*
+Rename that file to Config.php and
+Enter your value for connect to Data Base(HOST, USER, PASSWORD, DB)
+*/
+
+//Set parameters for dissplay errors 
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+//Variables for Connect to DB 
+const HOST 		= 'localhost';
+const USER 		= 'root';
+const PASSWORD  = '';
+const DB 		= 'my_manager';
+
+const CRYPT_OPTIONS = ['cost' => 10 ];//Value for crypt string
+
+//Default OPTIONS for sort function 
+const MAIN_COLUMN_FOR_SORT			  = 'last';
+const SECONDARY_COLUMN_FOR_SORT		  = 'first';
+const MAIN_COLUMN_SORT_DIRECTION 	  = 'ASC';
+const SECONDARY_COLUMN_SORT_DIRECTION = 'ASC';
+
+//Default variables for pagination function
+const OFFSET 					   = 0; //offcet for mysql_query
+const ROWS_ON_PAGE 				   = 4; //number rows
+const NUMBER_DISPLAYED_PAGES_LINKS = 2; //the maximum number of displayed pages
+const DEFAULT_PAGE 				   = 1; //default page
+ 
+const VAR_DUMP_BREAKER  = true;//OPTIONS for on/off varDump function
+const DISPLAY_SQL_QUERY = false;//OPTIONS for on/off displaySqlQuery function 

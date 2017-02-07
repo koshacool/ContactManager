@@ -1,0 +1,1245 @@
+* {
+    margin: 0;
+    line-height: 1.1;
+    font-family: "Arial Regular", sans-serif;
+}
+
+/*body {
+    position: relative;
+}*/
+
+body, html {
+    background-color: black;
+    color: white;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+select {
+    background: linear-gradient(#090909, #222222, #090909);
+    color: white;
+}
+
+select > option {
+    background: black;
+    color: white;
+}
+
+button {
+    outline: 0 !important;
+}
+
+/*style for buttons*/
+.buttonStyle {
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(#404040, #090909);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.buttonStyle span {
+    font-family: "Arial Regular", sans-serif;
+    font-size: 12pt;
+}
+
+.buttonStyle:hover {
+    background: linear-gradient(#090909, #404040);
+}
+
+.buttonStyle:active {
+    background: linear-gradient(#404040, #090909);
+}
+
+/* Link buttom style */
+.linkStyle {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(#404040, #090909);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.linkStyle:hover {
+    background: linear-gradient(#090909, #404040);
+}
+
+.linkStyle:active {
+    background: linear-gradient(#404040, #090909);
+}
+
+.linkStyle > a {
+    display: inline-block;
+    margin-top: 2px;
+    font-size: 12pt;
+    width: 100px;
+    height: 25px;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 12pt;
+}
+
+.linkStyle img {
+    width: 13px;
+    height: 13px;
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.emptyAdd {
+    margin-top: 30px;
+}
+
+/*Wise emblem*/
+.wise {
+    width: 200px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-image: url(/Public/Images/wise.png);
+    margin-left: 3%;
+    margin-top: -30px;
+    display: inline-block;
+    float: left;
+}
+
+/* Top block buttons */
+.headerNotAuthorized > .col-xs-4, .col-md-2 {
+    height: 85px;
+    margin-left: 2%;
+
+}
+
+.headerNotAuthorized
+    /* Top block buttons */
+.headerAuthorized {
+    height: 85px;
+}
+
+.blockButtons {
+    display: inline-block;
+    margin-top: 40px;
+    /*margin-left: 40%;*/
+    float: left;
+}
+
+/* Home button (drop-down menu)*/
+ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 20px;
+}
+
+ul.menu > li {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+ul.menu > li > a > img {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+ul.menu > a > span {
+    display: inline-block;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 11pt;
+}
+
+ul.menu a img {
+    margin-left: 0;
+}
+
+ul.menu a {
+    margin: 0;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(#404040, #090909);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.menu a:hover {
+    background: linear-gradient(#090909, #404040);
+}
+
+ul.menu a:active {
+    background: linear-gradient(#404040, #090909);
+}
+
+ul.submenu {
+    display: none;
+    position: absolute;
+}
+
+ul.submenu > li {
+    display: block;
+    margin-top: 6px;
+}
+
+ul.submenu > li > a {
+    display: block;
+    width: 100px;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+
+/* ------------------------------------*/
+.buttonStyle img {
+    margin-right: 8px;
+    margin-bottom: 3px;
+
+}
+
+.blockButtons a span {
+    margin-left: 8px;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 10pt;
+}
+
+.blockButtons > .linkStyle {
+    width: 150px;
+    /*height: 30px;*/
+}
+
+.blockButtons > .linkStyle > a {
+    width: 150px;
+    height: 30px;
+}
+
+.logout > .linkStyle {
+    width: 100px;
+}
+
+/*Logged user name*/
+.logged {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 12pt;
+    margin-right: 20px;
+}
+
+.logged span {
+    font-size: 11pt;
+}
+
+/* Index and Registration pages style */
+.block {
+    padding-bottom: 10px;
+}
+
+.authorizationForm {
+    width: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#090909, #222222, #090909);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 122px;
+}
+
+.authorizationForm form {
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+.text {
+    color: white;
+    font-weight: 500;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 20pt;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.errorMessage {
+    display: inline-block;
+    font-size: 12pt;
+    color: #B94A48;
+    margin-top: 10px;
+}
+
+.authorization .errorMessage {
+    /*margin-left: 20px;*/
+}
+
+.login {
+    font-size: 12pt;
+    width: 140px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+    display: inline-block;
+    text-align: left;
+    font-family: "Arial Regular", sans-serif;
+    color: white;
+}
+
+.password {
+    font-size: 12pt;
+    width: 140px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: left;
+    font-family: "Arial Regular", sans-serif;
+    color: white;
+}
+
+.authorization .login, .authorization .password {
+    width: 100px;
+}
+
+div.link {
+    /*margin-left: 20px;*/
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 11pt;
+    font-family: "Arial Regular", sans-serif;
+    text-decoration: underline;
+}
+
+div.link a {
+    color: white;
+}
+
+div.link a:visited {
+    color: white;
+}
+
+div.link a:hover {
+    opacity: 0.7;
+}
+
+div.link a:active {
+    color: darkgray;
+}
+
+input {
+    width: 250px;
+    outline: 0 !important;
+    color: black;
+}
+
+.registrationText {
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+.authorizationForm .buttonStyle {
+    /*margin-left: 30%;*/
+    margin-top: 15px;
+    margin-bottom: 10%;
+}
+
+.registration .buttonStyle {
+    text-align: center;
+    margin-top: 25px;
+    width: 120px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 10px;
+    margin-top: 20px;
+    width: 100%;
+    /*left: 0;*/
+    text-align: center;
+    /*padding-top: 50px;*/
+}
+
+/* Main page */
+.emptyList {
+    min-width: 200px;
+    max-width: 400px;
+    width: 45%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: linear-gradient(#333333, #333333, #333333, #222222, #111111);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.imageArrowUp {
+    display: inline-block;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+    background-image: url(/Public/Images/upGrey.png);
+    background-repeat: no-repeat;
+    margin-left: -90px;
+    pointer-events: none;
+    margin-top: 4px;
+}
+
+.imageArrowDown {
+    display: inline-block;
+    background-size: contain;
+    width: 17px;
+    height: 17px;
+    background-image: url(/Public/Images/downGrey.png);
+    background-repeat: no-repeat;
+    margin-left: -90px;
+    pointer-events: none;
+    margin-top: 4px;
+}
+
+.contactsList {
+    /*position:  static ;*/
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 122px;
+    margin-bottom: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+div.contactsList form {
+    display: inline-block;
+    border-radius: 20px;
+    white-space: nowrap;
+    border-radius: 20px;
+}
+
+.formBackgroung {
+    background: #333333;
+    border-radius: 20px;
+}
+
+.headerContactsList {
+    width: 800px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #444444;
+}
+
+.sequence {
+    min-width: 20px;
+    max-width: 30px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: white;
+}
+
+.sortButton {
+    width: 155px;
+    height: 80%;
+    background: #444444;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 0;
+}
+
+.sortButton:hover span {
+    font-size: 13pt;
+}
+
+.sortButton:active span {
+    font-size: 11pt;
+}
+
+.sortColorActiveButton {
+    font-size: 12pt;
+    margin-top: 2px;
+}
+
+.headerEmail {
+    display: inline-block;
+    font-size: 10pt;
+    width: 190px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.headerEmail div {
+    font: "Arial Regular", sans-serif;
+    color: white;
+}
+
+.headerPhone {
+    display: inline-block;
+    font-size: 10pt;
+    width: 150px;
+}
+
+.headerPhone div {
+    font: "Arial Regular", sans-serif;
+    color: white;
+}
+
+.actions {
+    display: inline-block;
+    font-size: 10pt;
+}
+
+.actions div {
+    font: "Arial Regular", sans-serif;
+    color: white;
+}
+
+.list {
+    width: 800px;
+    height: 28px;
+    margin-top: 8px;
+    border-bottom: 1px solid white;
+    font-size: 11pt;
+}
+
+.last {
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+}
+
+.lastForJs {
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+    margin-left: 1px;
+}
+
+.first {
+    display: inline-block;
+    width: 160px;
+    text-align: left;
+}
+
+.email {
+    display: inline-block;
+    width: 190px;
+    text-align: left;
+}
+
+.emailForJs {
+    display: inline-block;
+    width: 190px;
+    text-align: left;
+    margin-left: 11px;
+}
+
+.phone {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+.phoneForJsMainPage {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-left: 11px;
+}
+
+.phoneForJs {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    margin-left: 11px;
+}
+
+.actionsBottom {
+    display: inline-block;
+    font-size: 10pt;
+    width: 126px;
+    margin-right: -40px;
+
+}
+
+.editButton {
+    display: inline-block;
+    width: 35px;
+    height: 20px;
+    border-radius: 10px;
+    background: linear-gradient(#c06a00, #a04b00);
+    color: white;
+    text-decoration: none;
+}
+
+.editButton:hover {
+    background: linear-gradient(#a04b00, #c06a00);
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.editButton:active {
+    background: linear-gradient(#c06a00, #a04b00);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.actionsBottom a {
+    display: inline-block;
+    height: 100%;
+}
+
+.deleteButton > div, .xButton > div, .editButton > div {
+    height: 100%;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.editButton span {
+    margin-left: 7px;
+}
+
+.actionDelete {
+    display: inline-block;
+    width: 80px;
+    margin-left: 4px;
+}
+
+.deleteButton {
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(#c06a00, #a04b00);
+    color: white;
+    margin-left: 2px;
+}
+
+.deleteButton:hover {
+    background: linear-gradient(#a04b00, #c06a00);
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.deleteButton:active {
+    background: linear-gradient(#c06a00, #a04b00);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.deleteButton span {
+    margin-left: 10px;
+}
+
+.xButton {
+    display: inline-block;
+    width: 27px;
+    height: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(#c06a00, #a04b00);
+    color: white;
+    margin-left: -3px;
+    display: none;
+}
+
+.actionDelete:hover .xButton {
+    display: inline-block;
+}
+
+.xButton:hover {
+    background: linear-gradient(#8B0000, #FF0000);
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.xButton:active {
+    background: linear-gradient(#c06a00, #a04b00);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.xButton span {
+    margin-left: 6px;
+}
+
+/*.xButtonJs {
+    display: inline-block;
+    width: 27px;
+    height: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(#c06a00, #a04b00);
+    color: white;
+    margin-left: 1px;
+
+    padding-bottom: 1px;
+    padding-top: 1px;
+    display: none;
+}
+
+.actionDelete:hover .xButtonJs {
+    display: inline-block;
+}
+
+.xButtonJs:hover {
+    background: linear-gradient(#8B0000, #FF0000);
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.xButtonJs:active {
+    background: linear-gradient(#c06a00, #a04b00);
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.xButtonJs span {
+    margin-left: 6px;
+}*/
+
+/* Pagination*/
+.blockPagination {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background: black;
+    margin-bottom: -20px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.emptyBlock {
+    background: green;
+    height: 60px;
+    margin-top: -2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: linear-gradient(#333333, #333333, #333333, #222222, #111111);
+}
+
+.pagination {
+    display: block;
+    width: 75%;
+    height: 40px;
+    background: linear-gradient(#8B0000, #FF0000);
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    white-space: nowrap;
+}
+
+.prev {
+    display: inline-block;
+    width: 25%;
+    height: 40px;
+    background: linear-gradient(#8B0000, #FF0000);
+    border-bottom-left-radius: 20px;
+}
+
+.prevButton {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(#6d1700, #FF0000);
+    border: none;
+    border-bottom-left-radius: 20px;
+    color: white;
+}
+
+.prevButton:hover {
+    background: linear-gradient(#FF0000, #6d1700);
+}
+
+.prevButton:active {
+    background: linear-gradient(#6d1700, #FF0000);
+    border: 1px solid #B03060;
+}
+
+.prevButton img {
+    margin-left: -20px;
+}
+
+.prevButton span {
+    margin-left: 15px;
+}
+
+.paginationBorder {
+    border-left: 1px solid white;
+}
+
+.numberPagesBlock {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 50%;
+    height: 25px;
+    background: linear-gradient(#990000, #FF0000);
+    border-left: 1px double black;
+    border-right: 1px double black;
+    margin-left: -4px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.numberPagesBlockJs {
+    display: inline-block;
+    width: 50%;
+    height: 25px;
+    background: linear-gradient(#990000, #FF0000);
+    border-left: 1px double black;
+    border-right: 1px double black;
+    /*margin-left: -4px;*/
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.numberPagesBlock span {
+    margin-left: 15%;
+}
+
+.numberPagesBlockJs span {
+    margin-left: 15%;
+}
+
+.pageNumber {
+    display: inline-block;
+    width: 20px;
+    background: linear-gradient(#aa0000, #df0000);
+    border: none;
+    opacity: 0.7;
+    color: white;
+}
+
+.activePageNumber {
+    display: inline-block;
+    width: 20px;
+    background: linear-gradient(#aa0000, #df0000);
+    border: none;
+    opacity: 1;
+    color: white;
+    font-size: 12pt;
+}
+
+.pageNumber:hover {
+    font-size: 11pt;
+    opacity: 1;
+}
+
+.pageNumber:active {
+    font-size: 10pt;
+    opacity: 1;
+}
+
+.next {
+    display: inline-block;
+    width: 25%;
+    height: 40px;
+    background: linear-gradient(#8B0000, #FF0000);
+    border-bottom-right-radius: 20px;
+    margin-left: -4px;
+}
+
+.nextJs {
+    display: inline-block;
+    width: 25%;
+    height: 40px;
+    background: linear-gradient(#8B0000, #FF0000);
+    border-bottom-right-radius: 20px;
+}
+
+.nextButton {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(#6d1700, #FF0000);
+    border: none;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+.nextButton:hover {
+    background: linear-gradient(#FF0000, #6d1700);
+}
+
+.nextButton:active {
+    background: linear-gradient(#6d1700, #FF0000);
+    border: 1px solid #B03060;
+}
+
+.nextButton span {
+    margin-left: 35px;
+}
+
+.nextButton img {
+    margin-left: 20px;
+}
+
+/* Form for Edit/Add contact */
+.contactForm {
+    padding-bottom: 60px;
+    width: 100%;
+    float: left;
+}
+
+.regForm {
+    max-width: 470px;
+    min-width: 200px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#090909, #222222, #090909);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.regForm > span.errorMessage {
+    font-size: 10pt;
+    margin-left: 115px;
+}
+
+.contactForm h2 {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.blockAddForm {
+    margin-bottom: 2px;
+}
+
+.blockAddForm .inputForm {
+    width: 180px;
+}
+
+.fieldName {
+    display: inline-block;
+    width: 70px;
+    margin-left: 40px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 17px;
+    cursor: pointer;
+    margin-left: -21px;
+}
+
+.additionalField {
+    display: inline-block;
+    width: 160px;
+}
+
+.additionalField select {
+    display: inline-block;
+    width: 80px;
+}
+
+.date {
+    display: inline-block;
+}
+
+.okButton {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    background: linear-gradient(#404040, #090909);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+.okButton:hover {
+    background: linear-gradient(#090909, #404040);
+}
+
+.okButton:active {
+    background: linear-gradient(#404040, #090909);
+}
+
+.regForm > .buttonStyle {
+    margin-left: 115px;
+    margin-top: 10px;
+}
+
+.regForm > .buttonStyle span {
+    display: inline-block;
+    color: white;
+    font-size: 10pt;
+    font-family: "Arial Regular", sans-serif;
+    pointer-events: none;
+}
+
+/* Event page */
+
+.saveEmails {
+    max-width: 600px;
+    min-width: 147px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#090909, #222222, #090909);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 122px;
+    margin-bottom: 40px;
+}
+
+.saveEmails h3 {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.saveEmails input {
+    width: 20px;
+    margin-top: 3px;
+    float: left;
+}
+
+.saveEmails input span {
+    display: inline-block;
+    float: left;
+}
+
+.checkboxEmails {
+    margin-top: 10px;
+    margin-left: 42%;
+}
+
+.saveEmails .save {
+    margin-top: 20px;
+}
+
+.save .buttonStyle {
+    margin-bottom: 20px;
+}
+
+.event {
+    max-width: 600px;
+    min-width: 300px;
+    width: 60%;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#090909, #222222, #090909);
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 122px;
+    margin-bottom: 40px;
+}
+
+.event h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*.event b {*/
+/*margin-left: 15px;*/
+/*!*margin-right: 20px;*!*/
+/*float: left;*/
+/*}*/
+
+.event input {
+    margin-right: 10px;
+    float: left;
+}
+
+.inputEmails {
+    margin-bottom: 10px;
+}
+
+.eventMargin {
+    margin-left: 15px;
+}
+
+div > .eventButton {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* Event Select Emails */
+.contactsListEvent {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 122px;
+    background: linear-gradient(#333333, #333333, #333333, #222222, #111111);
+    border-radius: 20px;
+}
+
+.selectButtons .buttonStyle { /*button in select page*/
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.selectButtons .linkStyle { /*Link in select page*/
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.headerEventList {
+    width: 100%;
+    height: 35px;
+    display: inline-block;
+    background: #444444;
+}
+
+.eventList {
+    width: 100%;
+}
+
+.eventList .blockPagination {
+    margin-top: 0;
+}
+
+/*.eventList .sequence {
+    margin-left: 20px;
+}*/
+
+.eventList .list {
+    width: 100%;
+}
+
+.eventList .headerPhone {
+    width: 100px;
+}
+
+.eventList .phone {
+    width: 100px;
+}
+
+.eventList .header {
+    border-radius: 0;
+    width: 700px;
+}
+
+/*Remove contact*/
+.deleteContact {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: linear-gradient(#090909, #222222, #090909);
+    border-radius: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.deleteContact form {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.deleteContact .buttons {
+    margin-top: 15px;
+}
+
+/*View contact data page*/
+.blockView {
+    max-width: 20%;
+    min-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#090909, #222222, #090909);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blockView > h2 {
+    margin-bottom: 10px;
+}
+
+/*View contact data page button style*/
+.blockView > .linkStyle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+    height: 22px;
+
+}
+
+.blockView > .linkStyle > a {
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    font-family: "Arial Regular", sans-serif;
+    font-size: 100%;
+
+}
+
+.blockView p {
+    display: inline-block;
+}
+
+.valueName {
+    display: inline-block;
+    width: 70px;
+    margin-left: 7%;
+}
+
+.blockValue {
+    border-bottom: 1px solid;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 1465px) {
+    .blockView {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1348px) and (max-width: 1464px) {
+    .blockView {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1347px) {
+    .blockView {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1249px) {
+    .blockView {
+        font-size: 11px;
+    }
+}
